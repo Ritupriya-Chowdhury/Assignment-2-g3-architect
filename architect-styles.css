@@ -186,7 +186,7 @@ nav{
 }
 .icon{
     width: 150px;
-    height: 200px;
+    height: 220px;
     border: 2px solid #FF900E;
     border-radius: 10px;
     display: flex;
@@ -220,7 +220,7 @@ nav{
     color: blue;
 }
 .icon:hover h1{
-    color: rgb(194, 28, 28);
+    color: rgb(223, 35, 35);
      transform: rotate(-360deg);
 }
 
@@ -360,6 +360,11 @@ nav, .nav-bar, .Features-part,.features-love-enjoy,.sub-msg{
 .Features-part{
     margin: 10px ;
 }
+.sec p{
+    font-weight: 400;
+    font-size: 14px;
+    
+}
 .img-of-features{
     display: flex;
     flex-direction: column;
@@ -392,10 +397,18 @@ nav, .nav-bar, .Features-part,.features-love-enjoy,.sub-msg{
     
 }
 .btn1{
-    margin-top: 800px;
+    margin-top: 480px;
     padding: 10px;
-    height: 130px;
-    width: 200px;
+    height: 100px;
+    width: 150px;
+}
+.year{
+    
+    font-size: 30px;
+}
+.ex{
+    font-weight: 500;
+    font-size: 25px;
 }
 .fact{
     margin-left: 50px;
