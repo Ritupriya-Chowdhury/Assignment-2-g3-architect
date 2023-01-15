@@ -185,7 +185,7 @@ nav{
     margin-right: 100px;
 }
 .icon{
-    width: 150px;
+    width: 180px;
     height: 220px;
     border: 2px solid #FF900E;
     border-radius: 10px;
@@ -280,8 +280,8 @@ footer{
 }
 
 .img1{
-    width: 100px;
-    
+    width: 50px;
+    height: 65px;
 }
 .img2{
     width: 40px;
@@ -300,15 +300,18 @@ footer{
 form{
     display: flex;
     flex-direction: column;
+    
 }
 form input{
     border-radius: 5px;
     font-size: 16px;
     font-weight: 400;
     padding: 20px;
+    width:  200px;
 }
 .in1{
     margin-bottom: 20px;
+    height: 20px ;
 }
 .in2{
     height: 50px;
@@ -442,6 +445,10 @@ nav, .nav-bar, .Features-part,.features-love-enjoy,.sub-msg{
 }
 .sub,.msg{
     margin-left: 0;
+    
+}
+.sub-msg{
+    margin-left: 40px;
 }
     
 }
