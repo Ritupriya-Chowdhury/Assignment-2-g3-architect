@@ -209,26 +209,23 @@ nav{
     
 }
 /*--------------------- Animation for Fact Icons ------------------------------------------------*/
+.icon h1{
+    transition: transform 0.3s ease-out;
+}
+.icon:hover {
+    background-color: rgb(236, 158, 236)
 
- @keyframes color-changing{
-    0%{
-        background-color: blue;
-    }
-    50%{
-        background-color: red;
-    }
-    100%{
-        background-color: green;
-    } 
-    }
+}
+.icon:hover p{
+    color: blue;
+}
+.icon:hover h1{
+    color: rgb(194, 28, 28);
+     transform: rotate(-360deg);
+}
 
-    
 
-.icon:hover{
-    
-      animation-play-state: running;
-    }
-
+ 
 /*------------------------- Styles for Sponsors Description ------------------------------------------------*/
 .sponsors{
     display: flex;
