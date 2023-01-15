@@ -1,0 +1,113 @@
+/*------------------------------------- Styles for Header -----------------------------------------*/
+header{
+   
+    background: rgba(255, 144, 14, 0.1);
+}
+/*------------------------------------- Styles for Navigation -----------------------------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+/*------------------------------------- Styles for Nav-title -----------------------------------------*/
+.nav-title{
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 40px;
+}
+/*------------------------------------- Styles for Nav-bar -----------------------------------------*/
+.nav-bar{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.nav-bar p{
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+/*------------------------------------- Styles for Banner Section -----------------------------------------*/
+.Banner{
+    margin:0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*------------------------------------- Styles for Banner Title -----------------------------------------*/
+.banner-title{
+    font-weight: 700;
+    font-size: 60px;
+    padding: 0 200px;
+    text-align: center;
+}
+/*------------------------------------- Styles for Banner Description -----------------------------------*/
+.banner-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+    padding: 0 200px;
+    text-align: center;
+    
+}
+/*------------------------------------- Styles for Banner Button ------------------------------------------*/
+.btn{
+    width: 180px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #FF900E ;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 35px 0;
+}
+/*--------------------------------------- Styles for Banner Images ----------------------------------------- */
+.banner-img{
+    width: 1200px;
+    height: 600px;
+    margin-bottom: 40px;
+    
+}
+/*--------------------------------------- Styles for Features Part ----------------------------------------- */
+.Features-part{
+    display: flex;
+    margin: 50px 100px;
+}
+/*--------------------------------------- Styles for Features Images Part ----------------------------------------- */
+.img-of-features{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img-of-features img{
+    margin: 20px;
+    border-radius: 10px;
+}
+/*--------------------------------------- Styles for Description Features Part ----------------------------------------*/
+.des-of-features{
+    margin-left: 20px;
+    margin-top: 200px;
+}
+.features-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+.part1{
+    color: #727272;
+}
+.part2{
+    color: #FF900E;
+}
+.features-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/*------------------------ Styles for Features You Love & Enjoy----------------------------------*/
+.features-love-enjoy{
+    display: flex;
+}
+
+
+
+
+
