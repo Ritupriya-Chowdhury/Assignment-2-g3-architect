@@ -50,7 +50,7 @@ nav{
     
 }
 /*------------------------------------- Styles for Banner Button ------------------------------------------*/
-.btn{
+.btn, .btn1{
     width: 180px;
     height: 64px;
     border-radius: 10px;
@@ -106,8 +106,333 @@ nav{
 .features-love-enjoy{
     display: flex;
 }
+/*------------------------ Styles for Features Love Part----------------------------------*/
+.love{
+   margin-left: 150px;
+}
+.love-title{
+    font-weight: 700;
+    font-size: 45px;
+    width: 400px;
+}
+.love-des{
+    font-weight: 400;
+    font-size: 16px;
+    width: 450px;
+    color: #727272;
+}
+.sec{
+    width: 500px;
+    height: 130px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin: 20px 0;
+}
+.sec h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.sec p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/*------------------------ Styles for Features Love Image Part----------------------------------*/
+.love-Image{
+    background-image: url('images/architect.png');
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    margin-right: 100px;
+    width:500px;
+}
+.btn1{
+    margin-top: 500px;
+    padding: 20px;
+    height: 130px;
+    width: 220px;
+}
+.year{
+    font-weight: 700;
+    font-size: 40px;
+}
+.ex{
+    font-weight: 500;
+    font-size: 25px;
+}
+/*------------------------- Styles for Fact Section ------------------------------------------------*/
+.fact{
+    margin-left: 200px;
+}
 
+/*------------------------- Styles for Fact Description ------------------------------------------------*/
 
+.fact-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
 
+/*------------------------- Styles for Fact Icons ------------------------------------------------*/
 
+.fact-icon{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+.icon{
+    width: 150px;
+    height: 200px;
+    border: 2px solid #FF900E;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    animation: color-changing 2s ease-in-out  1s infinite ;
+    animation-play-state: paused;
+    
+}
+.icon h1{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.icon p{
+    font-weight: 600;
+    font-size: 20px; 
+    color: #727272;
+    
+}
+/*--------------------- Animation for Fact Icons ------------------------------------------------*/
+
+ @keyframes color-changing{
+    0%{
+        background-color: blue;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: green;
+    } 
+    }
+
+    
+
+.icon:hover{
+    
+      animation-play-state: running;
+    }
+
+/*------------------------- Styles for Sponsors Description ------------------------------------------------*/
+.sponsors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponsors-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.sponsor-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/*------------------------- Styles for Sponsors Icons ------------------------------------------------*/
+.spo-icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.spo-icon img{
+    width: 100px;
+}
+/*------------------------- Styles for Footer Part ---------------------------------------------------------------*/
+footer{
+    background: #FFF4E7;
+    padding-bottom: 100px;
+}
+/*------------------------- Styles for Subscribe and Message Part ------------------------------------------------*/
+.sub-msg{
+    display: flex;
+    margin: 100px;
+    
+}
+/*------------------------- Styles for Subscribe Part ------------------------------------------------*/
+.sub{
+    margin-left: 100px;
+}
+.sub-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.sub-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sub-icons {
+   display: flex;
+    
+}
+
+.img1{
+    width: 100px;
+    
+}
+.img2{
+    width: 40px;
+    height: 50px;
+    margin-left: 20px;
+}
+/*------------------------- Styles for Message Part ------------------------------------------------*/
+.msg{
+    margin-left: 100px;
+}
+.msg-title{
+    font-weight: 700;
+    font-size: 40px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+}
+.in1{
+    margin-bottom: 20px;
+}
+.in2{
+    height: 50px;
+}
+.ft-des{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+   color: #727272;
+
+}
+/*------------------------------------- Styles for Mobile Device --------------------------------- */
+
+@media only screen and (max-width: 688px) {
+nav, .nav-bar, .Features-part,.features-love-enjoy,.sub-msg{
+    
+    flex-direction: column;
+}
+.nav-title{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.nav-bar{
+    margin-right: 0;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.Banner{
+    margin:0 2%;
+}
+.banner-title{
+    
+    font-size: 40px;
+}
+.banner-des,.banner-title{
+   
+    padding: 0 50px;
+    text-align: left;
+    width: 200px;
+}
+
+.banner-img{
+    width: 100%;
+    height: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+.Features-part{
+    margin: 10px ;
+}
+.img-of-features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-of-features img{
+    width:80%;
+    margin: 10px;
+}
+.des-of-features{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.love{
+   margin-left: 20px;
+}
+.love-title{
+    font-weight: 700;
+    font-size: 40px;
+    width: 300px;
+}
+.love-des,.sec,.love-Image{
+    width: 300px;
+}
+.love-Image{
+    background-image: url('images/architect2.png');
+    margin-left: 10px ;
+    width: 100%;
+    
+}
+.btn1{
+    margin-top: 800px;
+    padding: 10px;
+    height: 130px;
+    width: 200px;
+}
+.fact{
+    margin-left: 50px;
+}
+.fact-icon{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.icon h1{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.icon p{
+    font-weight: 600;
+    font-size: 20px; 
+    color: #727272;
+    
+}
+.spo-icon{
+   flex-direction: column;
+   align-items: center;
+   
+}
+.spo-icon img{
+    margin-bottom: 50px;
+}
+.sub,.msg{
+    margin-left: 0;
+}
+    
+}
 
